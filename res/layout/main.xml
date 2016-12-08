@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/button_start"
+			android:text="@string/start"/>
+
+	</LinearLayout>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/text_info"
+		android:hint="@string/info"
+		android:minLines="3"
+		android:maxLines="20"/>
+
+	<SurfaceView 
+		android:id="@+id/surfaceview_usbvga"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"/>
+
+</LinearLayout>
